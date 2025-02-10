@@ -1,0 +1,50 @@
+# ============ Unity Specific ============  
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]ser[Ss]ettings/
+
+# Ignore auto-generated project files  
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Ignore Package Cache but keep manifest.json  
+Packages/*
+!Packages/manifest.json
+!Packages/packages-lock.json
+
+# Ignore Play Mode Test Results  
+Assets/Scenes/AutoSave_*.unity
+
+# Ignore crash reports, debugging logs, and compiled shaders  
+CrashReport/
+*.stackdump
+*.log
+
+# Ignore Rider & VS Code  
+.idea/
+.vscode/
+.vscode/**/*
+*.code-workspace
+
+# Ignore Python/VS Code virtual environment  
+.venv/
+
+# Ignore other OS-specific files  
+.DS_Store
+Thumbs.db
